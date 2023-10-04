@@ -1,0 +1,122 @@
+body {
+    background:  rgb(27, 27, 58);
+    font-family: sans-serif;
+}
+header {
+    background-image: url(../media/pexels-edvin-richardson-796206.jpg);
+    position: relative;
+    color: white;
+    border-bottom-style: inset ;
+    border-bottom: 1.2px solid rgb(77, 75, 75);
+}
+h1 {
+    position: absolute;
+}
+header h2 {
+    font-size: 10px;
+    position: absolute;
+    top: 98px;left: 90px;
+}
+header nav {
+    float: right;
+}
+header ul {
+    margin: 86px 0 0 0;
+}
+header li {
+    display: inline;
+    text-transform: capitalize;
+}
+header a {
+    text-decoration: none;
+    color: rgb(184, 179, 179);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-image: url(../media/pexels-marek-piwnicki-6160167.jpg);
+    padding: 70px;
+}
+.bold {
+    font-size: 55px;
+    color: white;
+}
+.hero P {
+    font-size: 18px;
+    text-align: initial;
+    color: #ffffff;
+    padding: 27px 76px;
+    background-color: rgb(102, 93, 136);
+}
+.hero button {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(102, 93, 136);
+    padding: 10px 19px;
+    border-radius: 5px;
+}
+#mynum{
+    padding: 41px 26px;
+    text-align: center;
+    font-size: 200px;
+    margin-top: 20px;
+}
+#mynum img {
+    width: 100%;
+}
+footer {
+    border: 1px solid #2a273a;
+    background:  #2a273a;
+}
+.services {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 40px 0 20px 0;
+}
+.services ul {
+    list-style: none;
+}
+.services ul li::before {
+    content: "\2022"; 
+    color: #94b0ec;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -40px; 
+}
+.services p {
+    color: #4e4b5e;
+    padding-bottom: 20px;
+}
+.services a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color:#94b0ec;
+}
+.services a:hover {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+}
+.clear {
+	display: table;
+	clear: both;
+	height: 40px;
+	width: 0;
+	content: '';
+}
